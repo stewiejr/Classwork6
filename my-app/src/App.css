@@ -1,0 +1,35 @@
+body {
+  background: #f5f8fc;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.App {
+  background: white;
+  border-radius: 15px;
+  max-width: 600px; /* ✅ Made it wider */
+  margin: 40px auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  padding: 30px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none; /* ✅ Removes bullet points */
+  padding-left: 0;        /* ✅ Aligns list flush */
+  font-size: 18px;
+  line-height: 1.8;
+}
+.btn-xl {
+  font-size: 1.5rem;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+}
+.dropdown-item.big-text {
+  font-size: 1.2rem;
+  padding: 0.6rem 1.5rem;
+}
+.dropdown-center .dropdown-menu {
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
